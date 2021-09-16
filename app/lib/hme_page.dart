@@ -7,59 +7,55 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(
-          backgroundColor: Colors.red,
-          title: Text(
-            "Hellow",
-            style: TextStyle(
-                color: Colors.black, fontSize: 28, letterSpacing: 5.0),
-          ),
+      appBar: AppBar(
+        backgroundColor: Colors.red,
+        title: Text(
+          "Hellow",
+          style:
+              TextStyle(color: Colors.black, fontSize: 28, letterSpacing: 5.0),
         ),
-        body:
-            // Row(
-            //   children: [
-            //     Container(
-            //       color: Colors.orange,
-            //       child: FlutterLogo(
-            //         size: 60.0,
-            //       ),
-            //     ),
-            //     Container(
-            //       color: Colors.blue,
-            //       child: FlutterLogo(
-            //         size: 60.0,
-            //       ),
-            //     ),
-            //     Container(
-            //       color: Colors.purple,
-            //       child: FlutterLogo(
-            //         size: 60.0,
-            //       ),
-            //     ),
-            //   ],
-            // ),
-
-            Column(
+      ),
+      body: Container(
+        height: double.infinity,
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Container(
-              color: Colors.orange,
+              color: Colors.red,
               child: FlutterLogo(
-                size: 60.0,
+                size: 100,
               ),
             ),
+            Column(mainAxisAlignment: MainAxisAlignment.center, children: [
+              Container(
+                color: Colors.black,
+                child: FlutterLogo(
+                  size: 100,
+                ),
+              ),
+              Container(
+                color: Colors.black,
+                child: FlutterLogo(
+                  size: 100,
+                ),
+              ),
+              Container(
+                color: Colors.black,
+                child: FlutterLogo(
+                  size: 100,
+                ),
+              ),
+            ]),
             Container(
               color: Colors.blue,
               child: FlutterLogo(
-                size: 60.0,
-              ),
-            ),
-            Container(
-              color: Colors.purple,
-              child: FlutterLogo(
-                size: 60.0,
+                size: 100,
               ),
             ),
           ],
-        ));
+        ),
+      ),
+    );
   }
 }
