@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 void main() {
+  var green = Colors.green;
   runApp(
     MaterialApp(
       title: "Demo App",
@@ -19,12 +20,29 @@ void main() {
             ),
           ),
         ),
+        // body: Center(
+        //   child: Image.asset(           //Image from File
+        //     "assets/download.jpg",
+        //     width: 500,
+        //     height: 500,
+        //   ),
+        // ),
+
+        // body: Center(
+        //   child: CircleAvatar(
+        //     radius: 100,
+        //     backgroundImage: NetworkImage("https://picsum.photos/800?image=9"), //Image from Internet
+        //   ),
+        // ),
+
+        // body: Center(
+        //   child: CircleAvatar(
+        //     radius: 80,
+        //     backgroundImage: AssetImage("assets/download.jpg"),
+        //   ),
+
         body: Center(
-          child: Image.asset(
-            "assets/download.jpg",
-            width: 500,
-            height: 500,
-          ),
+          child: Icon(Icons.camera_alt_outlined, size: 200, color: green),
         ),
       ),
     ),
