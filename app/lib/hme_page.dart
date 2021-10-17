@@ -18,8 +18,8 @@ class HomePage extends StatelessWidget {
       body: Container(
         height: double.infinity,
         child: Row(
-          // mainAxisAlignment: MainAxisAlignment.center,
-          // crossAxisAlignment: CrossAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Container(
               color: Colors.red,
