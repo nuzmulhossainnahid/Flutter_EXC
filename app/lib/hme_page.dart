@@ -40,13 +40,13 @@ class HomePage extends StatelessWidget {
                   size: 100,
                 ),
               ),
-              Container(
-                color: Colors.black,
-                child: FlutterLogo(
-                  size: 100,
-                ),
-              ),
-            ]),
+            //   Container(
+            //     color: Colors.black,
+            //     child: FlutterLogo(
+            //       size: 100,
+            //     ),
+            //   ),
+            // ]),
             Container(
               color: Colors.blue,
               child: FlutterLogo(
