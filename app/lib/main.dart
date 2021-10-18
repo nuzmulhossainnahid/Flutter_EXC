@@ -6,7 +6,7 @@ void main() {
   runApp(
     MaterialApp(
       title: "Demo App",
-      debugShowCheckedModeBanner: false,
+      // debugShowCheckedModeBanner: false,
       theme: ThemeData(fontFamily: ""),
       home: HomePage(),
     ),
