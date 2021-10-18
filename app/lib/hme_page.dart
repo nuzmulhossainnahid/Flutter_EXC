@@ -47,12 +47,12 @@ class HomePage extends StatelessWidget {
                 ),
               ),
             ]),
-            // Container(
-            //   color: Colors.blue,
-            //   child: FlutterLogo(
-            //     size: 100,
-            //   ),
-            // ),
+            Container(
+              color: Colors.blue,
+              child: FlutterLogo(
+                size: 100,
+              ),
+            ),
           ],
         ),
       ),
